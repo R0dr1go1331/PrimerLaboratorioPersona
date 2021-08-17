@@ -21,6 +21,9 @@ namespace Persona
             clspersona.Edad = 25;
             clspersona.Sexo = "Masculino";
 
+            Console.WriteLine(nclspersona.Hablar(clspersona));
+            Console.ReadLine();
+
         }
     }
 }
